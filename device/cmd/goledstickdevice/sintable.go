@@ -2,6 +2,8 @@ package main
 
 // Generate sin table
 /*
+	Sadly, we cannot use float32/64 with arduino nano, so sin values should be precalculated
+
 	for i := 0; i < 256; i++ {
 		sinValue := uint8(255.49*(0.5 + math.Sin(float64(i)*2*math.Pi/256-math.Pi/2)/2.0))
 		fmt.Printf("%d,\n", sinValue)
