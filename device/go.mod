@@ -1,4 +1,4 @@
-module goledstickdevice
+module github.com/jypelle/goledstick/device
 
 go 1.16
 
